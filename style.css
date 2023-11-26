@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap');
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background: #F2F2F2;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.item {
+  padding: 48px;
+}
+
+
+.item-1 {
+  border-radius: 8px 8px 0px 0px;
+  background: #E28625;
+}
+
+.item-2 {
+  background: #006971;
+}
+
+.item-3 {
+  border-radius: 0px 0px 8px 8px;
+  background: #004140;
+}
+
+.icon {
+  margin-bottom: 35px;
+}
+
+.title {
+  color: #F2F2F2;
+  font-family: Big Shoulders Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.description {
+  width: 231px;
+  color: #fff;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  opacity: 0.75;
+  margin-bottom: 83px;
+}
+
+.button {
+  width: 146px;
+  height: 48px;
+  border-radius: 25px;
+  background: #F2F2F2;
+
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  border: none;
+
+  cursor: pointer;
+}
+
+.button:hover {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.item-1 button {
+  color: #E28625;
+}
+
+.item-2 button {
+  color: #006971;
+}
+
+.item-3 button {
+  color: #004140;
+}
+
+@media screen and (min-width: 376px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .item-1 {
+    border-radius: 8px 0px 0px 8px;
+  }
+
+  .item-3 {
+    border-radius: 0px 8px 8px 0px;
+  }
+
+  .description {
+    width: 231px;
+  }
+}
+.attribution {
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  left: 0;
+}
